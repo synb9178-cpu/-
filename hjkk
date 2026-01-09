@@ -33,7 +33,7 @@ ruleset=🐟漏网之鱼,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=⚡模式选择`select`[]✨自动选择`[]🌟手动选择`[]☄️下载专用`[]📉 低倍率`[]🇭🇰 香港`[]🇯🇵 日本`[]🇸🇬 新加坡`[]🇺🇲 美国`[]🏠 家宽`[]⚖️负载均衡
+custom_proxy_group=⚡模式选择`select`[]✨自动选择`[]🌟手动选择`[]☄️下载专用`[]📉 低倍率`[]🇭🇰 香港`[]🇯🇵 日本`[]🇸🇬 新加坡`[]🇺🇲 美国`[]🇪🇺 欧洲`[]🏠 家宽`[]⚖️负载均衡
 custom_proxy_group=🌟手动选择`select`(?=.*.)^((?!(ExpireDate|低倍率|请每天更新|emby|🧼|EMBY|游戏|📥|HY|BAGE|🏛)).)*$
 custom_proxy_group=☄️下载专用`select`(📥|低倍率|emby|🧼|EMBY|HY|自建|🍨)
 custom_proxy_group=📉 低倍率`select`((?!日本专线4)(日本专线|美国洛杉矶|堪萨斯|纽约|香港|移动专属|BT下载|美国[1-3]号|日本[1-6]号))
@@ -47,12 +47,12 @@ custom_proxy_group=🍎Apple`select`[]DIRECT`[]⚡模式选择`[]✨自动选择
 custom_proxy_group=🌊LINUXDO`select`(?=.*.)^((?!(Traffic|ExpireDate|📥|活动|直连|请每天更新)).)*$`[]DIRECT
 custom_proxy_group=🎮游戏专用`select`(游戏|日服|港服|📥)
 custom_proxy_group=📻️Twitch`select`(🧼|EMBY|📥|HY|BAGE)
-custom_proxy_group=🇭🇰 香港节点`url-test`香港|HK|HongKong`https://www.google.com/generate_204`300,,50
-custom_proxy_group=🇯🇵 日本节点`url-test`日本|JP|Japan`https://www.google.com/generate_204`300,,50
-custom_proxy_group=🇸🇬 新加坡节点`url-test`新加坡|SG|Singapore|狮城`https://www.google.com/generate_204`300,,50
-custom_proxy_group=🇺🇸 美国节点`url-test`美国|US|United States`https://www.google.com/generate_204`300,,50
-custom_proxy_group=🇪🇺 欧洲节点`url-test`德国|英国|法国|荷兰|俄罗斯|意大利|DE|UK|FR|NL|RU|IT`https://www.google.com/generate_204`300,,50
-custom_proxy_group=✨自动选择`url-test`(?=.*(香港|日本|新加坡|台湾|美国))^((?!(Traffic|ExpireDate|📥|活动|请每天更新)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇭🇰 香港`url-test`香港|HK|HongKong`https://www.google.com/generate_204`300,,50
+custom_proxy_group=🇯🇵 日本`url-test`日本|JP|Japan`https://www.google.com/generate_204`300,,50
+custom_proxy_group=🇸🇬 新加坡`url-test`新加坡|SG|Singapore|狮城`https://www.google.com/generate_204`300,,50
+custom_proxy_group=🇺🇸 美国`url-test`美国|US|United States`https://www.google.com/generate_204`300,,50
+custom_proxy_group=🇪🇺 欧洲`url-test`德国|英国|法国|荷兰|俄罗斯|意大利|DE|UK|FR|NL|RU|IT`https://www.google.com/generate_204`300,,50
+custom_proxy_group=✨自动选择`url-test`(?=.*(香港|日本|新加坡|欧洲|美国))^((?!(Traffic|ExpireDate|📥|活动|请每天更新)).)*$`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=⚖️负载均衡`load-balance`(?=.*(香港|台湾|新加坡|日本))^((?!(Traffic|ExpireDate|📥|活动|请每天更新)).)*$`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🐟漏网之鱼`select`[]⚡模式选择`[]🌟手动选择
 custom_proxy_group=🛡直接连接`select`[]DIRECT`[]⚡模式选择`[]🌟手动选择
