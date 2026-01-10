@@ -1,0 +1,79 @@
+; ========== 流媒体 ==========
+ruleset=📺Youtube,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+ruleset=🍿Netflix,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
+ruleset=🎵TikTok,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+ruleset=📻️Twitch,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitch/Twitch.yaml
+
+; ========== Emby ==========
+ruleset=🧊Emby,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/emby.list
+ruleset=🧊Emby,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Emby/Emby.list
+
+; ========== AI ==========
+ruleset=💬OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list
+ruleset=💬OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Gemini/Gemini.list
+ruleset=💬OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Claude/Claude.list
+ruleset=💬OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Copilot/Copilot.list
+
+; ========== 社交 ==========
+ruleset=💭Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+
+; ========== 游戏 ==========
+ruleset=🎮游戏专用,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml
+ruleset=🎮游戏专用,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml
+ruleset=🎮游戏专用,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Epic/Epic.yaml
+
+; ========== Apple ==========
+ruleset=🍎Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+
+; ========== 直连 ==========
+ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+ruleset=🛡直接连接,[]GEOIP,CN
+ruleset=🛡直接连接,[]GEOIP,LAN
+
+; ========== FINAL（唯一出口，已断环） ==========
+ruleset=⚡模式选择,[]FINAL
+
+; ========== 核心 ==========
+custom_proxy_group=✨自动选择`url-test`(?=.*(香港|日本|新加坡|美国))^((?!(Traffic|ExpireDate|📥|活动)).)*$`http://www.gstatic.com/generate_204`300,,50
+
+custom_proxy_group=🌟手动选择`select`(?=.*.)^((?!(ExpireDate|低倍率|EMBY|游戏|📥)).)*$
+
+custom_proxy_group=⚡模式选择`select`[]✨自动选择`[]🌟手动选择`[]🇯🇵 日本`[]🇭🇰 香港`[]🇸🇬 新加坡`[]🇺🇲 美国`[]⚖️负载均衡
+
+; ========== 流媒体 ==========
+custom_proxy_group=📺Youtube`select`[]⚡模式选择`[]✨自动选择
+custom_proxy_group=🍿Netflix`select`[]🇯🇵 日本`[]🇸🇬 新加坡`[]⚡模式选择
+custom_proxy_group=🎵TikTok`select`[]🇯🇵 日本`[]⚡模式选择
+custom_proxy_group=📻️Twitch`select`[]⚡模式选择
+
+; ========== AI ==========
+custom_proxy_group=💬OpenAI`select`[]🇯🇵 日本`[]🇺🇲 美国`[]⚡模式选择
+
+; ========== 社交 ==========
+custom_proxy_group=💭Telegram`select`[]🇭🇰 香港`[]🇯🇵 日本`[]⚡模式选择`[]DIRECT
+
+; ========== 游戏 / Emby ==========
+custom_proxy_group=🎮游戏专用`select`(游戏|日服|港服)
+custom_proxy_group=🧊Emby`select`(EMBY|emby|自建)`[]DIRECT
+
+; ========== Apple ==========
+custom_proxy_group=🍎Apple`select`[]DIRECT`[]⚡模式选择
+
+; ========== 国家测速池（不参与 FINAL） ==========
+custom_proxy_group=🇯🇵 日本`url-test`(?=.*(日本|JP|Japan))^((?!(🏛)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇭🇰 香港`url-test`(?=.*香港)^((?!(🏛)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇸🇬 新加坡`url-test`(?=.*新加坡)^((?!(🏛)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇺🇲 美国`url-test`(?=.*美国)^((?!(🏛)).)*$`http://www.gstatic.com/generate_204`300,,50
+
+custom_proxy_group=⚖️负载均衡`load-balance`(?=.*(香港|日本|新加坡))^((?!(Traffic|ExpireDate)).)*$`http://www.gstatic.com/generate_204`300,,50
+
+; ========== 兜底 ==========
+custom_proxy_group=🛡直接连接`select`[]DIRECT
+custom_proxy_group=🐟漏网之鱼`select`[]🌟手动选择`[]DIRECT
+
+enable_rule_generator=true
+overwrite_original_rules=true
+clash_rule_base=https://raw.githubusercontent.com/moistrr/Clashruleset/main/config/clashdns.yml
