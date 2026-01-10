@@ -1,65 +1,59 @@
 ;设置规则标志位
-ruleset=📺Youtube,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
-ruleset=🍿Netflix,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
-ruleset=🎵TikTok,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
-ruleset=🧊Emby,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/emby.list
-ruleset=🧊Emby,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Emby/Emby.list
-ruleset=💬OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list
-ruleset=💬OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Gemini/Gemini.list
-ruleset=💬OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Claude/Claude.list
-ruleset=💬OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Copilot/Copilot.list
-ruleset=💬OpenAI,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/googleplay.list
-ruleset=💬OpenAI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.yaml
-ruleset=💭Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
-ruleset=📻️Twitch,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitch/Twitch.yaml
-ruleset=🎮游戏专用,clash-classic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml
-ruleset=🎮游戏专用,clash-classic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EA/EA.yaml
-ruleset=🎮游戏专用,clash-classic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml
-ruleset=🎮游戏专用,clash-classic,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Epic/Epic.yaml
-ruleset=🇭🇰 香港,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/HKproxy.list
-ruleset=🇺🇲 美国,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/USrule.list
-ruleset=🍎Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
-ruleset=🌊LINUXDO,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/linuxdo.list
-ruleset=🐟漏网之鱼,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/louwangzhiyu.list
-ruleset=🛡直接连接,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/zhilianemby.list
-ruleset=🛡直接连接,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/zhilian.list
-ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
-ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-ruleset=🛡直接连接,[]GEOIP,LAN
-ruleset=🛡直接连接,[]GEOIP,CN
-ruleset=🐟漏网之鱼,[]FINAL
+ruleset=🚫 禁止访问,clash-domain:https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml
+ruleset=🎬 Emby,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/emby.list
+ruleset=🎬 Emby,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Emby/Emby.list
+ruleset=🤖 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list
+ruleset=🤖 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Gemini/Gemini.list
+ruleset=🤖 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Claude/Claude.list
+ruleset=🤖 OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Copilot/Copilot.list
+ruleset=🤖 OpenAI,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/googleplay.list
+ruleset=🤖 OpenAI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.yaml
+ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+ruleset=📺 YouTube,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Loon/YouTube/YouTube.list
+ruleset=🎥 Netflix,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Loon/Netflix/Netflix.list
+ruleset=🏰 Disney,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Loon/Disney/Disney.list
+ruleset=🚀 模式选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+ruleset=🐟 漏网之鱼,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/louwangzhiyu.list
+ruleset=🔗 直接连接,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/zhilianemby.list
+ruleset=🔗 直接连接,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/zhilian.list
+ruleset=🔗 直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=🔗 直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🔗 直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🔗 直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+ruleset=🔗 直接连接,[]GEOIP,LAN
+ruleset=🔗 直接连接,[]GEOIP,CN
+ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=✨自动选择`url-test`(?=.*(香港|日本|新加坡|台湾|美国))^((?!(Traffic|ExpireDate|📥|活动|请每天更新)).)*$`http://ww.gstatic.com/generate_204`300,,50
-custom_proxy_group=⚡模式选择`select`[]✨自动选择`[]🌟手动选择`[]☄️下载专用`[]🇭🇰 香港`[]🇯🇵 日本`[]🇸🇬 新加坡`[]🇺🇸 美国`[]🇪🇺 欧洲
-custom_proxy_group=🌟手动选择`select`(?=.*.)^((?!(ExpireDate|低倍率|请每天更新|emby|🧼|EMBY|游戏|📥|HY|BAGE|🏛)).)*$
-custom_proxy_group=☄️下载专用`select`(📥|低倍率|emby|🧼|EMBY|HY|自建|🍨)
-custom_proxy_group=📺Youtube`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`(🧼|EMBY|📥|HY|BAGE|自建|🍨)
-custom_proxy_group=🍿Netflix`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`(🧼|EMBY|📥|HY|BAGE|自建|🍨)
-custom_proxy_group=🎵TikTok`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`(🧼|EMBY|📥|HY|BAGE|自建|🍨)
-custom_proxy_group=🧊Emby`select`(🧼|EMBY|📥|HY|MC|BAGE|自建|🍨)`[]DIRECT
-custom_proxy_group=💬OpenAI`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🏠 家宽`[]🇺🇲 美国`[]🇯🇵 日本
-custom_proxy_group=💭Telegram`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇭🇰 香港`[]🇺🇲 美国`[]🇯🇵 日本`[]DIRECT
-custom_proxy_group=🍎Apple`select`[]DIRECT`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🏠 家宽`[]🇺🇲 美国
-custom_proxy_group=🌊LINUXDO`select`(?=.*.)^((?!(Traffic|ExpireDate|📥|活动|直连|请每天更新)).)*$`[]DIRECT
-custom_proxy_group=🎮游戏专用`select`(游戏|日服|港服|📥)
-custom_proxy_group=📻️Twitch`select`(🧼|EMBY|📥|HY|BAGE)
-custom_proxy_group=🇭🇰 香港`url-test`香港|HK|HongKong`https://www.google.com/generate_204`300,,50
-custom_proxy_group=🇯🇵 日本`url-test`日本|JP|Japan`https://www.google.com/generate_204`300,,50
-custom_proxy_group=🇸🇬 新加坡`url-test`新加坡|SG|Singapore|狮城`https://www.google.com/generate_204`300,,50
-custom_proxy_group=🇺🇸 美国`url-test`美国|US|United States`https://www.google.com/generate_204`300,,50
-custom_proxy_group=🇪🇺 欧洲`url-test`德国|英国|法国|荷兰|俄罗斯|意大利|DE|UK|FR|NL|RU|IT`https://www.google.com/generate_204`300,,50
+# 策略组
+custom_proxy_group=🚀 模式选择`select`[]👋 手动选择`[]📉 低倍率`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇸🇬 新加坡节点`[]🇺🇸 美国节点`[]🇪🇺 欧洲节点
+custom_proxy_group=👋 手动选择`select`(?!(.*(剩余流量|过期时间|重置|官网|有效期|流量统计|加入群组|联系客服).*))
+custom_proxy_group=📉 低倍率`select`((?!日本专线4)(日本专线|美国洛杉矶|堪萨斯|纽约|香港|移动专属|BT下载|美国[1-3]号|日本[1-6]号))
+# 功能组
+custom_proxy_group=🤖 OpenAI`select`[]🚀 模式选择`[]👋 手动选择`[]🇯🇵 日本节点`[]🇸🇬 新加坡节点`[]🇺🇸 美国节点
+custom_proxy_group=📲 Telegram`select`[]🚀 模式选择`[]👋 手动选择`[]🇯🇵 日本节点`[]🇭🇰 香港节点
 
-custom_proxy_group=⚖️负载均衡`load-balance`(?=.*(香港|台湾|新加坡|日本))^((?!(Traffic|ExpireDate|📥|活动|请每天更新)).)*$`http://www.gstatic.com/generate_204`300,,50
-custom_proxy_group=🐟漏网之鱼`select`[]⚡模式选择`[]🌟手动选择
-custom_proxy_group=🛡直接连接`select`[]DIRECT`[]⚡模式选择`[]🌟手动选择
+# 流媒体
+custom_proxy_group=🎬 Emby`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率`(?!(.*(剩余流量|过期时间|重置|官网|有效期|流量统计|倍率).*))`[]DIRECT
+custom_proxy_group=📺 YouTube`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率`(?!(.*(剩余流量|过期时间|重置|官网|有效期|流量统计|倍率).*))
+custom_proxy_group=🎥 Netflix`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率`(?!(.*(剩余流量|过期时间|重置|官网|有效期|流量统计|倍率).*))
+custom_proxy_group=🏰 Disney`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率`(?!(.*(剩余流量|过期时间|重置|官网|有效期|流量统计|倍率).*))
+
+# 地区自动测速
+custom_proxy_group=🇭🇰 香港节点`url-test`香港|HK|HongKong`https://www.google.com/generate_204`300,,50
+custom_proxy_group=🇯🇵 日本节点`url-test`日本|JP|Japan`https://www.google.com/generate_204`300,,50
+custom_proxy_group=🇸🇬 新加坡节点`url-test`新加坡|SG|Singapore|狮城`https://www.google.com/generate_204`300,,50
+custom_proxy_group=🇺🇸 美国节点`url-test`美国|US|United States`https://www.google.com/generate_204`300,,50
+custom_proxy_group=🇪🇺 欧洲节点`url-test`德国|英国|法国|荷兰|俄罗斯|意大利|DE|UK|FR|NL|RU|IT`https://www.google.com/generate_204`300,,50
+
+# 三大模块
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 模式选择`[]👋 手动选择
+custom_proxy_group=🔗 直接连接`select`[]DIRECT`[]🚀 模式选择`[]👋 手动选择
+custom_proxy_group=🚫 禁止访问`select`[]REJECT`[]DIRECT`[]🚀 模式选择`[]👋 手动选择
 ;设置分组标志位
 
+# DNS与高级设置
 enable_rule_generator=true
 overwrite_original_rules=true
 clash_rule_base=https://raw.githubusercontent.com/moistrr/Clashruleset/main/config/clashdns.yml
-
-;luck
