@@ -29,17 +29,17 @@ ruleset=🐟 漏网之鱼,[]FINAL
 # 策略组
 custom_proxy_group=🚀 模式选择`select`[]👋 手动选择`[]📉 低倍率`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇸🇬 新加坡节点`[]🇺🇸 美国节点`[]🇪🇺 欧洲节点
 custom_proxy_group=👋 手动选择`select`(?!(.*(剩余流量|过期时间|重置|官网|有效期|流量统计|加入群组|联系客服).*))
-custom_proxy_group=📉 低倍率`select`((?!0.1x|0.8x))
+custom_proxy_group=📉 低倍率`select`(?!(.*0.1x|0.8x).*))
 # 功能组
 custom_proxy_group=🤖 OpenAI`select`[]🚀 模式选择`[]👋 手动选择`[]🇯🇵 日本节点`[]🇸🇬 新加坡节点`[]🇺🇸 美国节点
 custom_proxy_group=📲 Telegram`select`[]🚀 模式选择`[]👋 手动选择`[]🇯🇵 日本节点`[]🇭🇰 香港节点
 
 # 流媒体
-custom_proxy_group=🎬 Emby`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率`(?!(.*(剩余流量|过期时间|重置|官网|有效期|流量统计|倍率).*))`[]DIRECT
-custom_proxy_group=📺 YouTube`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率`(?!(.*(剩余流量|过期时间|重置|官网|有效期|流量统计|倍率).*))
-custom_proxy_group=🎥 Netflix`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率`(?!(.*(剩余流量|过期时间|重置|官网|有效期|流量统计|倍率).*))
-custom_proxy_group=🏰 Disney`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率`(?!(.*(剩余流量|过期时间|重置|官网|有效期|流量统计|倍率).*))
-custom_proxy_group=🎵TikTok`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率`(?!(.*(剩余流量|过期时间|重置|官网|有效期|流量统计|倍率).*))
+custom_proxy_group=🎬 Emby`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率
+custom_proxy_group=📺 YouTube`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率
+custom_proxy_group=🎥 Netflix`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率
+custom_proxy_group=🏰 Disney`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率
+custom_proxy_group=🎵TikTok`select`[]🚀 模式选择`[]👋 手动选择`[]📉 低倍率
 # 地区自动测速
 custom_proxy_group=🇭🇰 香港节点`url-test`香港|HK|HongKong`https://www.google.com/generate_204`300,,50
 custom_proxy_group=🇯🇵 日本节点`url-test`日本|JP|Japan`https://www.google.com/generate_204`300,,50
